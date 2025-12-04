@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5b4ce;
+    font-family: "Lucida Handwriting", cursive;
+}
+/*didn't shoot any zombies :( */
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 10px solid rgb(163, 163, 216);
+}
+
+h2 {
+    color: #343436;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #343436;
+}
+
+#counter {
+    font-weight: bold;
+    color: rgb(163, 163, 216);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(222, 91, 94);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   /* transition: background-color 0.3s ease ;*/
+}
+
+button:hover {
+    background-color: #9b1212;
+}
+
